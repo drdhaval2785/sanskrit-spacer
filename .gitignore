@@ -1,0 +1,35 @@
+# sanskrit-spacer — git keeps the code, its tables (spacer.json), the tests, the reports and the documentation. The
+# corpus and the trained runs are not kept here: the corpus is downloaded and built again (src/s01_download.py ...), and
+# the trained weights are published in Manuscribe's recognition packs (manuscribe-models, CC BY-SA 4.0).
+/data/
+/runs/
+
+# ---- weights and arrays, wherever they are left
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.safetensors
+*.npz
+*.npy
+
+# ---- keys and secrets
+*.pem
+*.key
+.env
+.env.*
+
+# ---- Python environments, caches, logs, system and editor files
+.venv/
+.venv-*/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.log
+*.out
+.DS_Store
+._*
+.vscode/
+.idea/
+*.swp
+*~
