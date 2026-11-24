@@ -1,6 +1,6 @@
 # Sanskrit Spacer
 
-Version 0.13.0 (24 November 2026; `spacer_reference.__version__`), released with Manuscribe 0.13.0 (whose companions
+Version 0.13.1 (24 November 2026; `spacer_reference.__version__`), released with Manuscribe 0.13.1 (whose companions
 all carry the same version number), which runs its
 model in the browser. `spacer.json`'s own `version` (1) is the version of its format, which Manuscribe checks a pack
 against, and does not follow this one.
