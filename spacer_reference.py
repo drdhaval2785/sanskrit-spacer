@@ -21,7 +21,7 @@ import numpy as np
 
 S = json.loads(Path(__file__).with_name("spacer.json").read_text(encoding="utf-8"))
 VERSION = S["version"]            # spacer.json's format version (what Manuscribe checks a pack against)
-__version__ = "0.13.3"               # this software's: Manuscribe and its companions carry the same one
+__version__ = "0.13.4"               # this software's: Manuscribe and its companions carry the same one
 _CLASS = "".join(f"{chr(a)}-{chr(b)}" for a, b in S["run_ranges"])
 RUN = re.compile(f"[{_CLASS}]+")
 WS_BETWEEN = re.compile(f"(?<=[{_CLASS}])[ \t]+(?=[{_CLASS}])")
